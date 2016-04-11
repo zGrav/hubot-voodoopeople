@@ -13,4 +13,4 @@
 module.exports = (robot) ->
 
     robot.hear /voodoo people/i, (msg) ->
-        response.send "https://www.youtube.com/watch?v=-Fz85FE0KtQ"
+        msg.send "https://www.youtube.com/watch?v=-Fz85FE0KtQ"
